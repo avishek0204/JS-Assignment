@@ -1,0 +1,20 @@
+#users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    #user-details{
+        border: 1px solid #ffefef;
+        border-radius: 4px;
+        width: 300px;
+        box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.1);
+        margin: 10px;
+        padding: 10px 20px;
+        #user-id{
+            display: none;
+        }
+    }
+    #user-details:hover{
+        cursor: pointer;
+    }
+}

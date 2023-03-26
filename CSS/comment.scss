@@ -1,0 +1,23 @@
+#comments{
+    display: none;
+    .comment{
+        border: 0px solid #ffecec;
+        box-shadow: 4px 4px 24px 0 rgba(80, 58, 58, 0.1);
+        padding: 20px;
+        margin: 10px 20px;
+        border-radius: 6px;
+    }
+    .heading{
+        margin-top: 0;
+    }
+    .name, .email, .comment-text{
+        padding-bottom: 10px;
+    }
+    .comment-text{
+        text-align: center;
+    }
+    box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.1);
+    border: 1px solid #ffefef;
+    width: 450px;
+    padding: 40px 20px;
+}
